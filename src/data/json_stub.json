@@ -1,224 +1,348 @@
 {
-    "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
-        "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [
+   "basics":{
+      "name":"Shreyansh Nahata",
+      "label":"Software Engineer",
+      "picture":"https://media-exp1.licdn.com/dms/image/C4E03AQHocHyZlPI-5g/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=b6mF6j7tPLTqRDmP-qV6xeIg7qdMgvGU7iwv7-d8eVQ",
+      "email":"shreyans4nahata@gmail.com",
+      "phone":"+91- 9739917610",
+      "website":"",
+      "summary":"SDE 2 at Amazon ",
+      "location":{
+         "address":"A-901, Goyal Orchid LakeView, Bellandur Lake Road",
+         "postalCode":"560103",
+         "city":"Bangalore",
+         "countryCode":"IN",
+         "region":"Karnataka",
+         "name":"Current Address"
+      },
+      "profiles":[
+         {
+            "network":"Linkedin",
+            "username":"shreyans4nahata",
+            "url":"https://www.linkedin.com/in/shreyans4nahata/"
+         },
+         {
+            "network":"Github",
+            "username":"shreyans4nahata",
+            "url":"https://github.com/shreyans4nahata"
+         }
+      ]
+   },
+   "work":[
+      {
+         "name":"Amazon",
+         "position":"SDE 2",
+         "website":"http://amazon.in",
+         "startDate":"2019-04-01",
+         "summary":"Tech lead role across India MRP and Expiry compliance project",
+         "location":"Bangalore, India",
+         "highlights":[
+            "Designed services to tackle inventory change in Amazon FCs"
+         ]
+      },
+      {
+         "name":"Amazon",
+         "position":"SDE 1",
+         "website":"http://amazon.in",
+         "startDate":"2017-08-07",
+         "endDate":"2019-03-31",
+         "summary":"Worked in India Apparel, Hardware and Complince team",
+         "location":"Bangalore, India",
+         "highlights":[
+            "Lead developer for launching Expiry Date",
+            "Developed Size Chart feature for Jewelry category"
+         ]
+      },
+      {
+         "name":"Amazon",
+         "position":"SDE Intern",
+         "website":"http://amazon.in",
+         "startDate":"2017-07-15",
+         "endDate":"2017-01-15",
+         "summary":"6 month internship in India Softlines team",
+         "location":"Bangalore, India",
+         "highlights":[
+            "Build a model generate cross category recommendations of products",
+            "Designed a model to determine the intent of a customer for making a purchase"
+         ]
+      }
+   ],
+   "education":[
+      {
+         "institution":"R.V. COLLEGE OF ENGINEERING",
+         "area":"Computer Science",
+         "studyType":"BACHELOR OF ENGINEERING",
+         "startDate":"2013-07-01",
+         "endDate":"2017-06-01",
+         "gpa":"8.72",
+         "courses":[
+            "Algorithms",
+            "Data Structures",
+            "Object Oriented Programming",
+            "Electives- Machine Learning",
+            "Electives: Computer Vision"
+         ],
+         "id":"0de1397a-63ca-4308-be4f-7bf591c20594"
+      },
+      {
+         "position":1,
+         "id":"a1d7a653-7b61-430c-942a-d0cd8a02ed9e",
+         "institution":"ST. Xavier's Sr. Sec. School",
+         "endDate":"2013-01-01",
+         "studyType":"SSC",
+         "area":"Physics, Chemistry, Maths"
+      }
+   ],
+   "publications":[
+      {
+         "name":"Anomaly detection in Log Records",
+         "publisher":"CISCO",
+         "releaseDate":"2017-04-01",
+         "website":"http://ijeecs.iaescore.com/index.php/IJEECSarticle/view/8741",
+         "summary":"Built a MLP model to detect anomalous log records. This was done in partnership with CISCO as part of an undergrad project."
+      }
+   ],
+   "skills":[
+      {
+         "name":"Python",
+         "level":"Master",
+         "value":87,
+         "keywords":[
+         ],
+         "index":0,
+         "id":"cc0786ab-8b8e-4630-9e44-b33866f9a62c"
+      },
+      {
+         "name":"Machine Learning",
+         "level":"Master",
+         "value":60,
+         "keywords":[
+         ],
+         "index":1,
+         "id":"35d414dd-d170-4dec-990f-f79dde7eaf65"
+      },
+      {
+         "name":"Java",
+         "level":"Master",
+         "value":53,
+         "keywords":[
+         ],
+         "index":2,
+         "id":"3368d346-db2f-409f-9bc5-86162a63d1cd"
+      },
+      {
+         "name":"C++",
+         "level":"Master",
+         "value":70,
+         "keywords":[
+         ],
+         "index":3,
+         "id":"ad679d2a-bf54-48dc-baa5-91a08a15ff51"
+      },
+      {
+         "name":"Angular",
+         "level":"Master",
+         "value":80,
+         "keywords":[
+            "HTML",
+            "CSS",
+            "Javascript"
+         ],
+         "index":4,
+         "id":"76bebb6f-12d2-4555-9e57-8884d52261d7"
+      }
+   ],
+   "languages":[
+      {
+         "language":"English",
+         "value":100,
+         "fluency":"Native speaker",
+         "id":"0df4e1f3-971d-4fe7-ad52-86ff6ddb09d0",
+         "index":0
+      },
+      {
+         "index":1,
+         "id":"54d197e1-0240-4cd5-a6e7-7924d9db15c6",
+         "language":"Hindi",
+         "value":100
+      }
+   ],
+   "interests":[
+      {
+         "name":"Online Gaming",
+         "gifUrl":"https://media.giphy.com/media/y0NFayaBeiWEU/giphy.gif",
+         "id":"bf415417-1816-40fa-92db-f6f7b37cda9b",
+         "index":0
+      },
+      {
+         "name":"Football",
+         "gifUrl":"https://media.giphy.com/media/r1IMdmkhUcpzy/giphy.gif",
+         "id":"2b75fd10-4507-41cd-8557-dadf2a325734",
+         "index":1
+      }
+   ],
+   "references":[
+      {
+         "name":"Jane Doe",
+         "reference":"Reference..."
+      }
+   ],
+   "projects":[
+      {
+         "name":"Anomaly detection in log records",
+         "description":"Built a MLP model to detect anomalous log records. This was done in partnership with CISCO as part of an undergrad project.",
+         "images":[
+
+         ],
+         "id":"1ffca70b-c4e3-4798-a40f-ec135ef4ba8b",
+         "date":"2017-01-04T04:08:12.861Z",
+         "index":0,
+         "link":"https://github.com/shreyans4nahata/logParserWeb",
+         "endDate":"2017-01-04"
+      }
+   ],
+   "specific":{
+      "basics":{
+         "visaSponsorship":true,
+         "personalDescription":"Currently working with Amazon India's Category Experience Team. I have worked on some Machine Learning projects and I am curious to dive deeper in applications of CNNs."
+      },
+      "dreamJob":{
+         "locations":[
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+               "name":"Prague",
+               "id":"6715af5c-64ea-4402-b1fa-59c924591a27"
+            },
+            {
+               "name":"Madrid",
+               "id":"4e37629d-5de2-4837-930f-36e9be774477"
             }
-        ]
-    },
-    "work": [
-        {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
-    "skills": [
-        {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
-    ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
-    "interests": [
-        {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-        {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
-        },
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-        }
-    ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "name": "Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
-            "images": []
-        }
-    ],
-    "specific": {
-        "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
-        },
-        "dreamJob": {
-            "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
-            ],
-            "remoteFrequency": "regularly"
-        },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
-        },
-        "education": { "studiesLevel": 5 },
-        "work": {
-            "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 9
-        },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
-    },
-    "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
-        "cardsOrder": [
-            { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
-        ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+         ],
+         "remoteFrequency":"occasionally",
+         "perks":{
+            "challenge":true,
+            "work_hours":true,
+            "responsabilities":true,
+            "salary":true,
+            "others":null
+         }
+      },
+      "currentJob":{
+         "issues":{
+            "other":"Career growth",
+            "no_tech":true
+         }
+      },
+      "education":{
+         "studiesLevel":4
+      },
+      "work":{
+         "contractTypes":[
+            "permanent"
+         ],
+         "codingYears":5,
+         "codingReason":"Started with a simple song downloader in python.",
+         "searchState":"activelySearching",
+         "experienceYears":3
+      },
+      "sound":{
+         "embedUrl":"https://open.spotify.com/embed/playlist/37i9dQZF1DWWQRwui0ExPn?si=UcCtyej-QRKvNxD7XCNZfQ"
+      },
+      "interestedBy":"Neural Nets, Probabilistic Data Structures "
+   },
+   "resumeCustomization":{
+      "imageHeader":{
+         "url":"https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+         "alt":"Default Banner"
+      },
+      "cardsOrder":[
+         {
+            "type":"basics",
+            "variant":4
+         },
+         {
+            "type":"projects",
+            "variant":4
+         },
+         {
+            "type":"skills",
+            "variant":0
+         },
+         {
+            "type":"dreamjob",
+            "variant":4
+         },
+         {
+            "type":"experiences",
+            "variant":4
+         },
+         {
+            "type":"studies",
+            "variant":4
+         },
+         {
+            "type":"gifs",
+            "variant":0
+         },
+         {
+            "type":"interestedBy",
+            "variant":3
+         },
+         {
+            "type":"language",
+            "variant":4
+         },
+         {
+            "type":"soundtrack",
+            "variant":4
+         }
+      ],
+      "fields":{
+         "work":{
+            "customDateFormat":"YYYY"
+         }
+      },
+      "theme":{
+         "palette":{
+            "primary":{
+               "50":"#e6f6f7",
+               "100":"#ccecef",
+               "200":"#99d9df",
+               "300":"#66c6d0",
+               "400":"#33b3c0",
+               "500":"#00a0b0",
+               "600":"#00808d",
+               "700":"#00606a",
+               "800":"#004046",
+               "900":"#002023",
+               "contrastDefaultColor":"light"
+            },
+            "secondary":{
+               "50":"#f0edec",
+               "100":"#e1dbd8",
+               "200":"#c3b7b1",
+               "300":"#a6928a",
+               "400":"#886e63",
+               "500":"#6a4a3c",
+               "600":"#553b30",
+               "700":"#402c24",
+               "800":"#2a1e18",
+               "900":"#150f0c",
+               "contrastDefaultColor":"light"
+            },
+            "tertiary":{
+               "50":"#faebec",
+               "100":"#f5d6d9",
+               "200":"#ebadb2",
+               "300":"#e0858c",
+               "400":"#d65c65",
+               "500":"#cc333f",
+               "600":"#a32932",
+               "700":"#7a1f26",
+               "800":"#521419",
+               "900":"#290a0d",
+               "contrastDefaultColor":"light"
             }
-        }
-    }
+         }
+      }
+   }
 }
