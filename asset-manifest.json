@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-ultimate-resume/static/css/main.b323e795.chunk.css",
-    "main.js": "/react-ultimate-resume/static/js/main.a1c4a096.chunk.js",
-    "main.js.map": "/react-ultimate-resume/static/js/main.a1c4a096.chunk.js.map",
+    "main.js": "/react-ultimate-resume/static/js/main.a10cc5d4.chunk.js",
+    "main.js.map": "/react-ultimate-resume/static/js/main.a10cc5d4.chunk.js.map",
     "runtime-main.js": "/react-ultimate-resume/static/js/runtime-main.e8372dd2.js",
     "runtime-main.js.map": "/react-ultimate-resume/static/js/runtime-main.e8372dd2.js.map",
     "static/js/2.6fba4236.chunk.js": "/react-ultimate-resume/static/js/2.6fba4236.chunk.js",
     "static/js/2.6fba4236.chunk.js.map": "/react-ultimate-resume/static/js/2.6fba4236.chunk.js.map",
     "index.html": "/react-ultimate-resume/index.html",
-    "precache-manifest.a17c9077ee7024a9e4d575bddb3ea7bd.js": "/react-ultimate-resume/precache-manifest.a17c9077ee7024a9e4d575bddb3ea7bd.js",
+    "precache-manifest.4d41de0f5046bdb8eb1502d6fd91e991.js": "/react-ultimate-resume/precache-manifest.4d41de0f5046bdb8eb1502d6fd91e991.js",
     "service-worker.js": "/react-ultimate-resume/service-worker.js",
     "static/css/main.b323e795.chunk.css.map": "/react-ultimate-resume/static/css/main.b323e795.chunk.css.map",
     "static/js/2.6fba4236.chunk.js.LICENSE.txt": "/react-ultimate-resume/static/js/2.6fba4236.chunk.js.LICENSE.txt",
@@ -52,6 +52,6 @@
     "static/js/runtime-main.e8372dd2.js",
     "static/js/2.6fba4236.chunk.js",
     "static/css/main.b323e795.chunk.css",
-    "static/js/main.a1c4a096.chunk.js"
+    "static/js/main.a10cc5d4.chunk.js"
   ]
 }
